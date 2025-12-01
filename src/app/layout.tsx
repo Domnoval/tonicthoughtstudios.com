@@ -26,6 +26,9 @@ export default function RootLayout({
               <a href="/upload" className="hover:text-[var(--accent)] transition-colors">
                 Upload
               </a>
+              <a href="/export" className="hover:text-[var(--accent)] transition-colors">
+                Export
+              </a>
             </div>
           </div>
         </nav>
