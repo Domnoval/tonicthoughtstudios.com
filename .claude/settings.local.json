@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show --stat aa6db01)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show --stat 77a2276)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" branch:*)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:next.config.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show HEAD:package.json)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:package.json)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:eslint.config.mjs)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show:*)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:.env.example)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01 --name-only)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:src/lib/ai.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:src/lib/printful.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:src/app/api/export/route.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:src/app/export/page.tsx)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/lib/db.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/lib/image.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show aa6db01:.env.example)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/app/api/artworks/route.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/app/api/chat/route.ts)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/app/layout.tsx)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/components/ArtworkChat.tsx)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/components/ArtworkCard.tsx)",
+      "Bash(git -C \"D:\\tonicthoughtstudios.com\" show 77a2276:src/app/page.tsx)",
+      "Bash(npm init -y)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
